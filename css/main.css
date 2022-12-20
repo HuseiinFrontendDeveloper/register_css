@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.container {
+  width:1290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 21px;
+  padding: 0 15px;
+  
+}
+.flex-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-div {
+
+}
+.register-link {
+  text-decoration: none;
+  color: blue;
+}
+.logo-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 19px;
+  margin-top: 31px;
+  margin-bottom: 89px;
+}
+.sign-heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.under-heading-text{
+  margin-bottom: 6px;
+}
+.under-text {
+  margin-bottom: 52px;
+}
+
+.btn {
+  padding: 14px 192px;
+  background: #0C21C1;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 60px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+}
+  
+
+
+.email {
+  display: flex;
+  justify-content: column;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 7px;
+}
+.input-email {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 430px;
+}
+.input-email::before {
+  content: '';
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/sms.svg');
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  margin-bottom: 7px;
+}    
+
+.label-email {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.content {
+  margin-bottom: 93px;
+}
+
+.email-form {
+  margin-bottom: 73px;
+}
+.password {
+  display: flex;
+  justify-content: column;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 7px;
+}
+.input-password {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 430px;
+  margin-bottom: 17px;
+}
+.input-password::before {
+  content: '';
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/block.svg');
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  margin-bottom: 7px;
+}    
+.input-password::after {
+  content: '';
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/eye.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  left:172px;
+  margin-bottom: 7px;
+} 
+.label-password {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.content {
+  margin-bottom: 93px;
+}
+.password-form {
+  margin-bottom: 93px;
+}
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 430px;
+  margin-bottom: 60px;
+}
+
+
+
+.under-login-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B5B5B5;
+  padding-left:157px;
+  margin-bottom: 34px;
+}
+.social-div {
+
+}
+.social-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 180px;
+  position: relative;
+  left: 127px;
+}
+
+
+.photo-sign {
+  background-color: #000842;
+  border-radius: 15px;
+  padding-left: 123px;
+  padding-top: 24px;
+  padding-right: 32px;
+  padding-bottom: 96px;
+  width: 735px;
+  
+}
+.call-photo {
+  display: block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+.photo-slay {
+  display: block;
+}
+.title-slay {
+  position: relative;
+  bottom: 750px;
+  left: 100px;
+}
+.heading-photo-sign {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  padding-top: 84px;
+  margin-bottom: 4px;
+}
+.text-photo-sign {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  
+}
+input {
+  outline: none;
+}
+.remember {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+}
+.checkbox-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999999;
+}

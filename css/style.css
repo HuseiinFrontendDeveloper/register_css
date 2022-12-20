@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  width:1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 21px;
+  padding: 0 15px;
+}
+input {
+  border: none;
+  background:none;
+  outline: none;
+  
+}
+.flex-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form-div {
+
+}
+.logo-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-left: 19px;
+  margin-top: 31px;
+  margin-bottom: 89px;
+}
+.sign-heading {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.under-heading-text{
+  margin-bottom: 6px;
+}
+.under-text {
+  margin-bottom: 52px;
+}
+
+.content {
+  padding-top: 52px;
+}
+.sign {
+  padding: 14px 192px;
+  background: #0C21C1;
+  box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.register-link {
+  text-decoration: none;
+  color: blue;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-left: 10px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 430px;
+  margin-bottom: 50px;
+}
+.input::before {
+  content: '';
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/sms.svg');
+  background-repeat: no-repeat;
+}
+.label-email {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.user{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-left: 10px;
+}
+.input-user {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 430px;
+  margin-bottom: 50px;
+}
+.input-user::before {
+  content: '';
+  width: 17px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/user.svg');
+  background-repeat: no-repeat;
+}
+.label-user {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.input-pass {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 430px;
+  margin-bottom: 40px;
+}
+.input-pass::before {
+  content: '';
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-image: url('/img/block.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 2px;
+}
+.input-pass::after {
+  content: '';
+  width: 14px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('/img/eye.svg');
+  background-repeat: no-repeat;
+  position: relative;
+  left: 190px;
+  bottom: 5px;
+}
+.label-number {
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 11px;
+}
+.number{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin-left: 10px;
+}
+
+
+.call-photo {
+  position: relative;
+  bottom: 810px;
+  right: 200px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.saly-photo {
+  position: relative;
+  bottom: 850px;
+  left: 140px;
+}
+.photo-sign {
+  position: relative;
+  left: 130px;
+}
+.title-slay {
+  position: relative;
+  bottom: 650px;
+  right: 420px;
+}
